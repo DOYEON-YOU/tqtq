@@ -1,0 +1,32 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.App .wrap {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.App .wrap h2 {
+  margin-bottom: 0;
+}
+.App .wrap button {
+  border-radius: 50px;
+  font-weight: bolder;
+  border: 1px solid white;
+  width: 100px;
+  height: 50px;
+}
+.App .wrap button:hover {
+  cursor: pointer;
+}
+.App .wrap hr {
+  width: 800px;
+  margin: 50px 0;
+}
